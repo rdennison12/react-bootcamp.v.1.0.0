@@ -3,3 +3,4 @@
 ## Commits
 - Initial commit – Repository created
 - First project completed using create-react-app
+- Created the second project "Starter"
