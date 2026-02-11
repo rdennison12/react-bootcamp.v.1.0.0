@@ -5,3 +5,4 @@
 * First project completed using create-react-app
 * Created the second project "Starter"
 * Refactored the Portfolio project using parcel and parcel-bundler
+* Updated Stylesheet for fading effect of Title
