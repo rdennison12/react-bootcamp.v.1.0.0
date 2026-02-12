@@ -7,3 +7,4 @@
 * Refactored the Portfolio project using parcel and parcel-bundler
 * Updated Stylesheet for fading effect of Title
 * Added a Header file for site navigation
+* Updated the Header component to use children prop instead of Component prop
