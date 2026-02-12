@@ -8,3 +8,4 @@
 * Updated Stylesheet for fading effect of Title
 * Added a Header file for site navigation
 * Updated the Header component to use children prop instead of Component prop
+* Created the Music Master project
