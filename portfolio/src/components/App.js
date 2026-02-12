@@ -3,6 +3,7 @@ import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
 import profile from '../assets/profile.png';
 import Title from "./Title";
+import Header from "./Header";
 
 class App extends Component {
     state = {displayBio: false};
@@ -11,10 +12,10 @@ class App extends Component {
         this.setState({displayBio: !this.state.displayBio});
     }
 
-
     render() {
         return (
             <div>
+                <Header />
                 <img src={profile} alt='profile' style={{width: 200, height: 200, borderRadius: 100}}/>
                 <h1>Hello!</h1>
                 <p>My name is Rick</p>
