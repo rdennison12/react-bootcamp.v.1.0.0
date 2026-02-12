@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
 import profile from '../assets/profile.png';
+import Title from "./Title";
 
 class App extends Component {
     state = {displayBio: false};
@@ -10,14 +11,13 @@ class App extends Component {
         this.setState({displayBio: !this.state.displayBio});
     }
 
-
     render() {
         return (
             <div>
                 <img src={profile} alt='profile' style={{width: 200, height: 200, borderRadius: 100}}/>
                 <h1>Hello!</h1>
                 <p>My name is Rick</p>
-                <p>I am a software engineer.</p>
+                <Title/>
                 {
                     this.state.displayBio ? (
                         <div>
@@ -32,13 +32,14 @@ class App extends Component {
                         </div>
                     )
                 }
-                <hr />
-                <Projects />
                 <hr/>
-                <SocialProfiles />
+                <Projects/>
+                <hr/>
+                <SocialProfiles/>
             </div>
         )
     }
 }
+
 
 export default App;
