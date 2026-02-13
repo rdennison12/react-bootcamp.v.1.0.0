@@ -11,3 +11,4 @@
 * Created the Music Master project
 * Completed the Music Master project
   * Waiting to see if the course will be updated to correct some issues
+* Created the Evens or Odds project
