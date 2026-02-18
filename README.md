@@ -13,3 +13,4 @@
   * Waiting to see if the course will be updated to correct some issues
 * Created the Evens or Odds project
 * Updated project node_modules
+* Completed the Evens or Odds project and added it to the portfolio project
