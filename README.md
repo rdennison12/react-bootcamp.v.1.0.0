@@ -14,3 +14,4 @@
 * Created the Evens or Odds project
 * Updated project node_modules
 * Completed the Evens or Odds project and added it to the portfolio project
+* Created the Reaction app project
