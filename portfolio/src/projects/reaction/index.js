@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import {configureStore} from "@reduxjs/toolkit";
 import {Provider} from 'react-redux';
 import rootReducer from './reducers';
@@ -30,8 +29,7 @@ setTimeout(() => {
     pubsub.publish(newMessage({text: 'Hello World!', username: 'Bob'}));
 }, 1000);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+export default () => (
     <Provider store={store}>
         <PubSubContext.Provider value={pubsub}>
             <App/>

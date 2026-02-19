@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Jokes from './components/Jokes';
 import MusicMaster from './projects/music-master';
 import EvensOrOdds from './projects/evens-or-odds';
+import Reaction from './projects/reaction';
 import './index.css';
 
 
@@ -18,6 +19,7 @@ root.render(
             <Route path='/jokes' element={<Header><Jokes/></Header>}/>
             <Route path='/music-master' element={<Header><MusicMaster/></Header>}/>
             <Route path='/evens-or-odds' element={<Header><EvensOrOdds/></Header>}/>
+            <Route path='/reaction' element={<Header><Reaction/></Header>}/>
         </Routes>
     </BrowserRouter>
 )
