@@ -16,3 +16,4 @@
 * Completed the Evens or Odds project and added it to the portfolio project
 * Created the Reaction app project
 * Completed the Reaction app project and added it to the portfolio project
+* Created the News app project
